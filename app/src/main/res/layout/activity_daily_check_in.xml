@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.melanomore.melanomore.DailyCheckIn">
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="337dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="28dp"
+        android:text="Irregular, Uneven Boarders of Moles"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="332dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="32dp"
+        android:text="Any Noticable Changes Occured"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="332dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="32dp"
+        android:text="Diameter of Moles is Larger Than 6mm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="336dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="28dp"
+        android:text="Multiple Colors or Changing Shades "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="337dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="28dp"
+        android:text="Asymmetrical Boarders of Moles"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Check Off Any Applicable Characteristics" />
+</android.support.constraint.ConstraintLayout>
